@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:background="@drawable/img"/>
+
+    <TextView
+        android:id="@+id/power_connected_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/power_disconnected_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:background="#00BCD4"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/pause_button"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="125dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/pause"/>
+
+        <Button
+            android:id="@+id/start_button"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="125dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/play"/>
+
+        <Button
+            android:id="@+id/stop_button"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="125dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/stop"/>
+
+    </LinearLayout>
+
+</LinearLayout>
